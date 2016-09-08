@@ -29,7 +29,9 @@ ObjSingleM;
 
     [self starInfocatorVisible];
     
-    [[self AFNetManager] GET:urlString parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+    [[self AFNetManager] GET:urlString
+                         parameters:parameters
+                         progress:^(NSProgress * _Nonnull downloadProgress) {
         
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -50,7 +52,9 @@ ObjSingleM;
     
     [self starInfocatorVisible];
     
-    [[self AFNetManager] GET:urlString parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+    [[self AFNetManager] GET:urlString
+                         parameters:parameters
+                         progress:^(NSProgress * _Nonnull downloadProgress) {
       
         
         
@@ -122,17 +126,23 @@ ObjSingleM;
 
 
 + (void)POST:(NSString *)URLString
-  parameters:(id)parameters
+        parameters:(id)parameters
 constructingBodyWithFormDataArray:(NSArray<FormData *> *)formDataArray
      success:(void (^)(id responseObject))success
      failure:(void (^)(NSError *error))failure
 {
     
     
-    [[self AFNetManager] POST:URLString parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    [[self AFNetManager] POST:URLString
+                         parameters:parameters
+                         constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         
         for (FormData * data in formDataArray) {
-            [formData appendPartWithFileData:data.data name:data.name fileName:data.fileName mimeType:data.mimeType];
+            [formData appendPartWithFileData:data.data
+                      name:data.name
+                      fileName:data.fileName
+                      mimeType:data.mimeType];
+            
         }
         
     } progress:^(NSProgress * _Nonnull uploadProgress) {

@@ -10,9 +10,6 @@
 #import "YYCache.h"
 
 
-#define CacheFile_Path NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0]
-
-
 @implementation QSHCache
 
 
