@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "QSHCache.h"
 #import "QSHNetworkManager.h"
-
+#import <AFNetworking.h>
 static NSString *const dataUrl = @"http://api.douban.com/v2/movie/top250?apikey=02d830457f4a8f6d088890d07ddfae47";
 
 
@@ -22,7 +22,8 @@ static NSString *const dataUrl = @"http://api.douban.com/v2/movie/top250?apikey=
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    
 }
 #warning 断网测试
 

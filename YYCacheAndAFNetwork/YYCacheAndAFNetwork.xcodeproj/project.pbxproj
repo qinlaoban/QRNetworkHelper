@@ -17,6 +17,7 @@
 		251FE4551D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4541D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m */; };
 		251FE4681D80EA7A00EA7062 /* QSHCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4651D80EA7A00EA7062 /* QSHCache.m */; };
 		251FE4691D80EA7A00EA7062 /* QSHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4671D80EA7A00EA7062 /* QSHNetworkManager.m */; };
+		25AB39121D82470800AD6869 /* https.cer in Resources */ = {isa = PBXBuildFile; fileRef = 25AB39111D82470800AD6869 /* https.cer */; };
 		54476FDA80B49C07E1E1B5E4 /* libPods-YYCacheAndAFNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB0AAF6886F7DD8FCCFB9DE /* libPods-YYCacheAndAFNetwork.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		251FE4651D80EA7A00EA7062 /* QSHCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSHCache.m; sourceTree = "<group>"; };
 		251FE4661D80EA7A00EA7062 /* QSHNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSHNetworkManager.h; sourceTree = "<group>"; };
 		251FE4671D80EA7A00EA7062 /* QSHNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSHNetworkManager.m; sourceTree = "<group>"; };
+		25AB39111D82470800AD6869 /* https.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = https.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		251FE42E1D80E9F300EA7062 /* YYCacheAndAFNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				25AB39111D82470800AD6869 /* https.cer */,
 				251FE4621D80EA7A00EA7062 /* QSHNetWorkCache */,
 				251FE4321D80E9F300EA7062 /* AppDelegate.h */,
 				251FE4331D80E9F300EA7062 /* AppDelegate.m */,
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AB39121D82470800AD6869 /* https.cer in Resources */,
 				251FE43F1D80E9F300EA7062 /* LaunchScreen.storyboard in Resources */,
 				251FE43C1D80E9F300EA7062 /* Assets.xcassets in Resources */,
 				251FE43A1D80E9F300EA7062 /* Main.storyboard in Resources */,

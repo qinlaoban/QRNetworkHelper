@@ -18,6 +18,7 @@
 
 ObjSingleH;
 
+
 // 无缓存
 + (void)GET:(NSString *)urlString parameters:(NSDictionary *)parameters success:(void(^)(id responseObject))resposeValue;
 
