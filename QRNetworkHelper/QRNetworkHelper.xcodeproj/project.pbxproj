@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251FE4311D80E9F300EA7062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4301D80E9F300EA7062 /* main.m */; };
+		251FE4341D80E9F300EA7062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4331D80E9F300EA7062 /* AppDelegate.m */; };
+		251FE4371D80E9F300EA7062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4361D80E9F300EA7062 /* ViewController.m */; };
+		251FE43A1D80E9F300EA7062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251FE4381D80E9F300EA7062 /* Main.storyboard */; };
+		251FE43C1D80E9F300EA7062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251FE43B1D80E9F300EA7062 /* Assets.xcassets */; };
+		251FE43F1D80E9F300EA7062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251FE43D1D80E9F300EA7062 /* LaunchScreen.storyboard */; };
+		251FE44A1D80E9F300EA7062 /* YYCacheAndAFNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4491D80E9F300EA7062 /* YYCacheAndAFNetworkTests.m */; };
+		251FE4551D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4541D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m */; };
+		251FE4681D80EA7A00EA7062 /* QSHCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4651D80EA7A00EA7062 /* QSHCache.m */; };
+		251FE4691D80EA7A00EA7062 /* QSHNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FE4671D80EA7A00EA7062 /* QSHNetworkManager.m */; };
+		25AB39121D82470800AD6869 /* https.cer in Resources */ = {isa = PBXBuildFile; fileRef = 25AB39111D82470800AD6869 /* https.cer */; };
+		46598EFA4A7844EC5D74D728 /* libPods-QRNetworkHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F5EF4FFD826C7F07CE5082 /* libPods-QRNetworkHelper.a */; };
+		D6AC343D244D7F4A008D1BD3 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AC343C244D7F4A008D1BD3 /* ApiConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		251FE4461D80E9F300EA7062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251FE4241D80E9F300EA7062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251FE42B1D80E9F300EA7062;
+			remoteInfo = YYCacheAndAFNetwork;
+		};
+		251FE4511D80E9F300EA7062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251FE4241D80E9F300EA7062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251FE42B1D80E9F300EA7062;
+			remoteInfo = YYCacheAndAFNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F5EF4FFD826C7F07CE5082 /* libPods-QRNetworkHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRNetworkHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212B5FE82552899AA86D827E /* Pods-YYCacheAndAFNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCacheAndAFNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYCacheAndAFNetwork/Pods-YYCacheAndAFNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		24F14AA9F018DF5F0C39FD8E /* Pods-YYCacheAndAFNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYCacheAndAFNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYCacheAndAFNetwork/Pods-YYCacheAndAFNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		251FE42C1D80E9F300EA7062 /* QRNetworkHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRNetworkHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		251FE4301D80E9F300EA7062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		251FE4321D80E9F300EA7062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251FE4331D80E9F300EA7062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251FE4351D80E9F300EA7062 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		251FE4361D80E9F300EA7062 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		251FE4391D80E9F300EA7062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		251FE43B1D80E9F300EA7062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		251FE43E1D80E9F300EA7062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		251FE4401D80E9F300EA7062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251FE4451D80E9F300EA7062 /* QRNetworkHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRNetworkHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		251FE4491D80E9F300EA7062 /* YYCacheAndAFNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCacheAndAFNetworkTests.m; sourceTree = "<group>"; };
+		251FE44B1D80E9F300EA7062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251FE4501D80E9F300EA7062 /* QRNetworkHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRNetworkHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		251FE4541D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCacheAndAFNetworkUITests.m; sourceTree = "<group>"; };
+		251FE4561D80E9F300EA7062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251FE4631D80EA7A00EA7062 /* ObjSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjSingle.h; sourceTree = "<group>"; };
+		251FE4641D80EA7A00EA7062 /* QSHCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSHCache.h; sourceTree = "<group>"; };
+		251FE4651D80EA7A00EA7062 /* QSHCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSHCache.m; sourceTree = "<group>"; };
+		251FE4661D80EA7A00EA7062 /* QSHNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSHNetworkManager.h; sourceTree = "<group>"; };
+		251FE4671D80EA7A00EA7062 /* QSHNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSHNetworkManager.m; sourceTree = "<group>"; };
+		25AB39111D82470800AD6869 /* https.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = https.cer; sourceTree = "<group>"; };
+		BDE696FFE47A5304E85B15C0 /* Pods-QRNetworkHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRNetworkHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRNetworkHelper/Pods-QRNetworkHelper.release.xcconfig"; sourceTree = "<group>"; };
+		C8A94FC6688AFBD77E44BB88 /* Pods-QRNetworkHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRNetworkHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRNetworkHelper/Pods-QRNetworkHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		D6AC343B244D7F4A008D1BD3 /* ApiConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiConfig.h; sourceTree = "<group>"; };
+		D6AC343C244D7F4A008D1BD3 /* ApiConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiConfig.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		251FE4291D80E9F300EA7062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46598EFA4A7844EC5D74D728 /* libPods-QRNetworkHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FE4421D80E9F300EA7062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FE44D1D80E9F300EA7062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251FE4231D80E9F300EA7062 = {
+			isa = PBXGroup;
+			children = (
+				251FE42E1D80E9F300EA7062 /* QRNetworkHelper */,
+				251FE4481D80E9F300EA7062 /* QRNetworkHelperTests */,
+				251FE4531D80E9F300EA7062 /* QRNetworkHelperUITests */,
+				251FE42D1D80E9F300EA7062 /* Products */,
+				3EF41A11E04B20EFA482F664 /* Pods */,
+				539B2A1EDE74B6F41DFC1777 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		251FE42D1D80E9F300EA7062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				251FE42C1D80E9F300EA7062 /* QRNetworkHelper.app */,
+				251FE4451D80E9F300EA7062 /* QRNetworkHelperTests.xctest */,
+				251FE4501D80E9F300EA7062 /* QRNetworkHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		251FE42E1D80E9F300EA7062 /* QRNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				25AB39111D82470800AD6869 /* https.cer */,
+				251FE4621D80EA7A00EA7062 /* QSHNetWorkCache */,
+				251FE4321D80E9F300EA7062 /* AppDelegate.h */,
+				251FE4331D80E9F300EA7062 /* AppDelegate.m */,
+				251FE4351D80E9F300EA7062 /* ViewController.h */,
+				251FE4361D80E9F300EA7062 /* ViewController.m */,
+				251FE4381D80E9F300EA7062 /* Main.storyboard */,
+				251FE43B1D80E9F300EA7062 /* Assets.xcassets */,
+				251FE43D1D80E9F300EA7062 /* LaunchScreen.storyboard */,
+				251FE4401D80E9F300EA7062 /* Info.plist */,
+				251FE42F1D80E9F300EA7062 /* Supporting Files */,
+			);
+			path = QRNetworkHelper;
+			sourceTree = "<group>";
+		};
+		251FE42F1D80E9F300EA7062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251FE4301D80E9F300EA7062 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251FE4481D80E9F300EA7062 /* QRNetworkHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				251FE4491D80E9F300EA7062 /* YYCacheAndAFNetworkTests.m */,
+				251FE44B1D80E9F300EA7062 /* Info.plist */,
+			);
+			path = QRNetworkHelperTests;
+			sourceTree = "<group>";
+		};
+		251FE4531D80E9F300EA7062 /* QRNetworkHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				251FE4541D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m */,
+				251FE4561D80E9F300EA7062 /* Info.plist */,
+			);
+			path = QRNetworkHelperUITests;
+			sourceTree = "<group>";
+		};
+		251FE4621D80EA7A00EA7062 /* QSHNetWorkCache */ = {
+			isa = PBXGroup;
+			children = (
+				251FE4631D80EA7A00EA7062 /* ObjSingle.h */,
+				251FE4641D80EA7A00EA7062 /* QSHCache.h */,
+				251FE4651D80EA7A00EA7062 /* QSHCache.m */,
+				251FE4661D80EA7A00EA7062 /* QSHNetworkManager.h */,
+				251FE4671D80EA7A00EA7062 /* QSHNetworkManager.m */,
+				D6AC343B244D7F4A008D1BD3 /* ApiConfig.h */,
+				D6AC343C244D7F4A008D1BD3 /* ApiConfig.m */,
+			);
+			path = QSHNetWorkCache;
+			sourceTree = "<group>";
+		};
+		3EF41A11E04B20EFA482F664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				212B5FE82552899AA86D827E /* Pods-YYCacheAndAFNetwork.debug.xcconfig */,
+				24F14AA9F018DF5F0C39FD8E /* Pods-YYCacheAndAFNetwork.release.xcconfig */,
+				C8A94FC6688AFBD77E44BB88 /* Pods-QRNetworkHelper.debug.xcconfig */,
+				BDE696FFE47A5304E85B15C0 /* Pods-QRNetworkHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		539B2A1EDE74B6F41DFC1777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F5EF4FFD826C7F07CE5082 /* libPods-QRNetworkHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		251FE42B1D80E9F300EA7062 /* QRNetworkHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251FE4591D80E9F300EA7062 /* Build configuration list for PBXNativeTarget "QRNetworkHelper" */;
+			buildPhases = (
+				8825B968BB7DBAB2F2C8246C /* [CP] Check Pods Manifest.lock */,
+				251FE4281D80E9F300EA7062 /* Sources */,
+				251FE4291D80E9F300EA7062 /* Frameworks */,
+				251FE42A1D80E9F300EA7062 /* Resources */,
+				B6B40D010E59B0748DE5C954 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRNetworkHelper;
+			productName = YYCacheAndAFNetwork;
+			productReference = 251FE42C1D80E9F300EA7062 /* QRNetworkHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		251FE4441D80E9F300EA7062 /* QRNetworkHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251FE45C1D80E9F300EA7062 /* Build configuration list for PBXNativeTarget "QRNetworkHelperTests" */;
+			buildPhases = (
+				251FE4411D80E9F300EA7062 /* Sources */,
+				251FE4421D80E9F300EA7062 /* Frameworks */,
+				251FE4431D80E9F300EA7062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251FE4471D80E9F300EA7062 /* PBXTargetDependency */,
+			);
+			name = QRNetworkHelperTests;
+			productName = YYCacheAndAFNetworkTests;
+			productReference = 251FE4451D80E9F300EA7062 /* QRNetworkHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		251FE44F1D80E9F300EA7062 /* QRNetworkHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251FE45F1D80E9F300EA7062 /* Build configuration list for PBXNativeTarget "QRNetworkHelperUITests" */;
+			buildPhases = (
+				251FE44C1D80E9F300EA7062 /* Sources */,
+				251FE44D1D80E9F300EA7062 /* Frameworks */,
+				251FE44E1D80E9F300EA7062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251FE4521D80E9F300EA7062 /* PBXTargetDependency */,
+			);
+			name = QRNetworkHelperUITests;
+			productName = YYCacheAndAFNetworkUITests;
+			productReference = 251FE4501D80E9F300EA7062 /* QRNetworkHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		251FE4241D80E9F300EA7062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Qin;
+				TargetAttributes = {
+					251FE42B1D80E9F300EA7062 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 1120;
+					};
+					251FE4441D80E9F300EA7062 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 251FE42B1D80E9F300EA7062;
+					};
+					251FE44F1D80E9F300EA7062 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 251FE42B1D80E9F300EA7062;
+					};
+				};
+			};
+			buildConfigurationList = 251FE4271D80E9F300EA7062 /* Build configuration list for PBXProject "QRNetworkHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 251FE4231D80E9F300EA7062;
+			productRefGroup = 251FE42D1D80E9F300EA7062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251FE42B1D80E9F300EA7062 /* QRNetworkHelper */,
+				251FE4441D80E9F300EA7062 /* QRNetworkHelperTests */,
+				251FE44F1D80E9F300EA7062 /* QRNetworkHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		251FE42A1D80E9F300EA7062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25AB39121D82470800AD6869 /* https.cer in Resources */,
+				251FE43F1D80E9F300EA7062 /* LaunchScreen.storyboard in Resources */,
+				251FE43C1D80E9F300EA7062 /* Assets.xcassets in Resources */,
+				251FE43A1D80E9F300EA7062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FE4431D80E9F300EA7062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FE44E1D80E9F300EA7062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8825B968BB7DBAB2F2C8246C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRNetworkHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B40D010E59B0748DE5C954 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRNetworkHelper/Pods-QRNetworkHelper-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRNetworkHelper/Pods-QRNetworkHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		251FE4281D80E9F300EA7062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AC343D244D7F4A008D1BD3 /* ApiConfig.m in Sources */,
+				251FE4371D80E9F300EA7062 /* ViewController.m in Sources */,
+				251FE4691D80EA7A00EA7062 /* QSHNetworkManager.m in Sources */,
+				251FE4681D80EA7A00EA7062 /* QSHCache.m in Sources */,
+				251FE4341D80E9F300EA7062 /* AppDelegate.m in Sources */,
+				251FE4311D80E9F300EA7062 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FE4411D80E9F300EA7062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251FE44A1D80E9F300EA7062 /* YYCacheAndAFNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FE44C1D80E9F300EA7062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251FE4551D80E9F300EA7062 /* YYCacheAndAFNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251FE4471D80E9F300EA7062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251FE42B1D80E9F300EA7062 /* QRNetworkHelper */;
+			targetProxy = 251FE4461D80E9F300EA7062 /* PBXContainerItemProxy */;
+		};
+		251FE4521D80E9F300EA7062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251FE42B1D80E9F300EA7062 /* QRNetworkHelper */;
+			targetProxy = 251FE4511D80E9F300EA7062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		251FE4381D80E9F300EA7062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251FE4391D80E9F300EA7062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		251FE43D1D80E9F300EA7062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251FE43E1D80E9F300EA7062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		251FE4571D80E9F300EA7062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		251FE4581D80E9F300EA7062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		251FE45A1D80E9F300EA7062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A94FC6688AFBD77E44BB88 /* Pods-QRNetworkHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QRNetworkHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuNeng.smartlife.YYCacheAndAFNetwork;
+				PRODUCT_NAME = QRNetworkHelper;
+				SWIFT_OBJC_BRIDGING_HEADER = "QRNetworkHelper/QSHNetWorkCache/QRNetworkHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		251FE45B1D80E9F300EA7062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE696FFE47A5304E85B15C0 /* Pods-QRNetworkHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QRNetworkHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuNeng.smartlife.YYCacheAndAFNetwork;
+				PRODUCT_NAME = QRNetworkHelper;
+				SWIFT_OBJC_BRIDGING_HEADER = "QRNetworkHelper/QSHNetWorkCache/QRNetworkHelper-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		251FE45D1D80E9F300EA7062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYCacheAndAFNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuNeng.smartlife.YYCacheAndAFNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRNetworkHelper.app/QRNetworkHelper";
+			};
+			name = Debug;
+		};
+		251FE45E1D80E9F300EA7062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYCacheAndAFNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuNeng.smartlife.YYCacheAndAFNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRNetworkHelper.app/QRNetworkHelper";
+			};
+			name = Release;
+		};
+		251FE4601D80E9F300EA7062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYCacheAndAFNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuNeng.smartlife.YYCacheAndAFNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYCacheAndAFNetwork;
+			};
+			name = Debug;
+		};
+		251FE4611D80E9F300EA7062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYCacheAndAFNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuNeng.smartlife.YYCacheAndAFNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYCacheAndAFNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		251FE4271D80E9F300EA7062 /* Build configuration list for PBXProject "QRNetworkHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FE4571D80E9F300EA7062 /* Debug */,
+				251FE4581D80E9F300EA7062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251FE4591D80E9F300EA7062 /* Build configuration list for PBXNativeTarget "QRNetworkHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FE45A1D80E9F300EA7062 /* Debug */,
+				251FE45B1D80E9F300EA7062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251FE45C1D80E9F300EA7062 /* Build configuration list for PBXNativeTarget "QRNetworkHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FE45D1D80E9F300EA7062 /* Debug */,
+				251FE45E1D80E9F300EA7062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251FE45F1D80E9F300EA7062 /* Build configuration list for PBXNativeTarget "QRNetworkHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FE4601D80E9F300EA7062 /* Debug */,
+				251FE4611D80E9F300EA7062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 251FE4241D80E9F300EA7062 /* Project object */;
+}

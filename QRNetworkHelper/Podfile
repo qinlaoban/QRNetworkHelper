@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,'10.0'
+target 'QRNetworkHelper' do
+pod 'AFNetworking', '~> 3.2.1'
+pod 'YYCache', '~> 1.0.4'
+pod 'SVProgressHUD', '~> 2.2.5'
+end
